@@ -1,7 +1,7 @@
 # Terraform
 I have used terraform as an Infrastructure as code (IaC) tool to provision my infrasctructure on AWS. Provisioned infrastructure inlude;
 VPCs, EKS Clusters, Private and Public subnets, Iinternet Gateway, Routing Tables, SECURITY GROUP, etc.
-https://github.com/WinifredZenabuin/UnityProject/blob/master/CI-CD%20Intergration.JPG
+https://github.com/emiworkks/UnityProject/blob/master/CI-CD%20Intergration.JPG
 # EKS Getting Started Guide Configuration
 
 This is the full configuration from https://www.terraform.io/docs/providers/aws/guides/eks-getting-started.html
@@ -19,7 +19,7 @@ terraform destory
 # Jenkins
 Jenkins will enable us to achieve Continuos Integration and Continuous Deployment. Our Jenkins pipeline-script  will ensure once the application is developed or modified it is automatically build using maven, tested using selenium, validated using SonarQube. The build artifacts will be uploaded to Nexus Private aritifact repository. 
 # GitHub
-The scripts used for this project can be clone from https://github.com/WinifredZenabuin/UnityProject.
+The scripts used for this project can be clone from https://github.com/emiworkks/UnityProject.
 I also confihured github-webhook so that ounce the source code is modified jenkins will srtigger a build.  
 # Dockerfile
 we are also using the created package (artifacts) to create a docker imgae for our application. Here docker is used for containerisation.  
@@ -72,4 +72,4 @@ docker ps -a
 ```
 
 ## License
-[Winifred Zenabuin](https://www.linkedin.com/in/winifred-zenabuin-1b430b194/)
+[Emilienne Swiri](https://www.linkedin.com/in/emilienne-swiri-27250b1b2/)
